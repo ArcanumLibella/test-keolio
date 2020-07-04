@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0 88px;
+
+  &__logo {
+    .icon {
+      max-width: 175px;
+      height: 32px;
+    }
+  }
+
+  &__nav {
+  }
+
+  &__items {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    margin: 0 16px;
+    color: $white;
+    font-size: rem(16px);
+    font-weight: 300;
+  }
+
+  .cta {
+    margin-left: 48px;
+
+    &__link {
+      padding: 6px 16px;
+    }
+  }
+}

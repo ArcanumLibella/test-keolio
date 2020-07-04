@@ -1,0 +1,23 @@
+.cta {
+  display: inline-block;
+  color: $purple;
+  text-align: center;
+  background-color: $white;
+  border-radius: 26px;
+
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background: $lightPurple;
+  }
+
+  &__link {
+    display: block;
+    padding: 16px 28px;
+    width: 100%;
+
+    font-size: rem(16px);
+    font-weight: 900;
+    cursor: pointer;
+  }
+}
