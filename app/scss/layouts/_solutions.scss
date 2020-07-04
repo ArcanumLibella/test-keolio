@@ -1,6 +1,8 @@
 .section--solutions {
-  padding: 180px 0;
+  padding: 180px 0 85px;
   background-color: $lightPurple;
+  border-bottom-left-radius: 20% 5%;
+  border-bottom-right-radius: 20% 5%;
 
   .h2 {
     text-align: center;
@@ -13,10 +15,13 @@
   }
 
   .solutions {
+    text-align: center;
+
     &__wrapper {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      margin-bottom: 40px;
     }
 
     .card-solution {
