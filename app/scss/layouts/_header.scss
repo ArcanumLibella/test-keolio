@@ -24,13 +24,20 @@
     color: $white;
     font-size: rem(16px);
     font-weight: 300;
+    // transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    // &:hover {
+    //   color: $purple;
+    // }
   }
 
   .cta {
     margin-left: 48px;
 
     &__link {
-      padding: 6px 16px;
+      padding: 4px 16px 6px;
+      font-weight: 300;
     }
   }
 }

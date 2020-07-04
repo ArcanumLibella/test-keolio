@@ -7,6 +7,7 @@ $font: 'Filson Pro', sans-serif;
 .h1 {
   font-size: rem(40px);
   font-weight: 900;
+  line-height: 48px;
   color: $white;
 }
 
@@ -19,6 +20,7 @@ $font: 'Filson Pro', sans-serif;
 .h3 {
   font-size: rem(22px);
   font-weight: 400;
+  line-height: 27px;
 }
 
 .h4 {
@@ -29,9 +31,11 @@ $font: 'Filson Pro', sans-serif;
 .bodytext {
   font-size: rem(16px);
   font-weight: 400;
+  line-height: 24px;
 }
 
 .subtext {
   font-size: rem(14px);
   font-weight: 400;
+  line-height: 24px;
 }

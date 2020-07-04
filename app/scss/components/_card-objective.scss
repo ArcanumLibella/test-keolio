@@ -1,0 +1,21 @@
+.card-objective {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 250px;
+  text-align: center;
+
+  &__img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    margin-bottom: 44px;
+    text-align: center;
+  }
+
+  &__text {
+  }
+}

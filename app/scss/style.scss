@@ -4,15 +4,23 @@
 @import './global/fonts';
 
 @import './components/cta';
+@import './components/card-objective';
+@import './components/card-solution';
 
 @import './layouts/header';
 @import './layouts/footer';
 @import './layouts/hero';
+@import './layouts/objectives';
+@import './layouts/solutions';
 
 @import './pages/homepage';
 
 body {
   font-family: $font;
+}
+
+.homepage {
+  overflow: hidden;
 }
 
 .content-wrapper {

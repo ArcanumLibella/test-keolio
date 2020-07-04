@@ -1,0 +1,26 @@
+.section--solutions {
+  padding: 180px 0;
+  background-color: $lightPurple;
+
+  .h2 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .bodytext {
+    max-width: 734px;
+    margin-bottom: 60px;
+  }
+
+  .solutions {
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .card-solution {
+      margin-bottom: 54px;
+    }
+  }
+}

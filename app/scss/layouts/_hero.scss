@@ -4,9 +4,34 @@
   background: transparent
     linear-gradient(0deg, #c0c0ed 17%, #a09cf4 30%, #9e9af4 31%) 0% 0% no-repeat
     padding-box;
+  background: url('./images/shape_BG-header.png');
+  background-size: cover;
+
+  &__content {
+    position: relative;
+  }
 
   &__text {
     max-width: 720px;
+  }
+
+  &__logos {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-top: 92px;
+    padding-bottom: 180px;
+  }
+
+  &__logo {
+    max-height: 50px;
+  }
+
+  &__illus {
+    position: absolute;
+    top: -210px;
+    right: -255px;
+    max-width: 660px;
   }
 
   .h1 {

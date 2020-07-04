@@ -7,6 +7,21 @@
 
   transition: all 0.3s ease-in-out;
 
+  &--secondary {
+    border: 1px solid $purple;
+    text-transform: uppercase;
+  }
+
+  &--tertiary {
+    border: 1px solid $purple;
+    text-transform: uppercase;
+    border-radius: 7px;
+
+    .cta__link {
+      padding: 20px 16px;
+    }
+  }
+
   &:hover {
     background: $lightPurple;
   }

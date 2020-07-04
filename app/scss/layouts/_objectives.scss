@@ -1,0 +1,20 @@
+.section--objectives {
+  display: flex;
+  justify-content: space-between;
+  margin: 104px 0 44px;
+
+  .h2 {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .objectives {
+    text-align: center;
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 48px;
+    }
+  }
+}
