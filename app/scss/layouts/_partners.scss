@@ -7,11 +7,6 @@
 	}
 
 	.partners {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		max-width: 1138px;
-		overflow: scroll;
 		margin-bottom: 135px;
 
 		&__icon {
@@ -21,7 +16,13 @@
 			padding: 16px;
 			width: 212px;
 			height: 212px;
-			// background-color: $purple;
+
+			&.glide__slide--active {
+				background-color: $purple;
+				.icon {
+					fill: $white;
+				}
+			}
 		}
 
 		.icon {

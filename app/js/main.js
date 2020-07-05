@@ -1,5 +1,5 @@
 import Header from './modules/header';
-// import Slider from './modules/slider';
+import Slider from './modules/slider';
 
 const App = {
 	init() {
@@ -7,7 +7,7 @@ const App = {
 
 		// Add new JS files here :
 		new Header();
-		// new Slider();
+		new Slider();
 	}
 };
 
