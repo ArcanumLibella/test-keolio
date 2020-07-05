@@ -1,0 +1,40 @@
+.card-testimony {
+	padding: 44px 36px 38px;
+	max-width: 370px;
+	max-height: 350px;
+	background-color: $white;
+	box-shadow: 0px 0px 36px #00000029;
+	border-radius: 16px;
+	text-align: left;
+
+	&__text {
+		font-size: rem(20px);
+		margin-bottom: 20px;
+	}
+
+	&__footer {
+		display: flex;
+		align-items: center;
+	}
+
+	&__avatar {
+		margin-right: 40px;
+
+		img {
+			border-radius: 50%;
+		}
+	}
+
+	&__author {
+	}
+
+	&__name {
+		font-size: rem(12px);
+		font-weight: 900;
+		margin-bottom: 8px;
+	}
+	&__job {
+		font-size: rem(13px);
+		font-weight: 200;
+	}
+}

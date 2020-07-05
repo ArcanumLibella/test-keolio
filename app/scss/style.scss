@@ -6,6 +6,7 @@
 @import './components/cta';
 @import './components/card-objective';
 @import './components/card-solution';
+@import './components/card-testimony';
 
 @import './layouts/header';
 @import './layouts/footer';
@@ -17,20 +18,20 @@
 @import './pages/homepage';
 
 body {
-  font-family: $font;
+	font-family: $font;
 }
 
 .homepage {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .content-wrapper {
-  padding: 0 16px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1138px;
+	padding: 0 16px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1138px;
 
-  @include large {
-    padding: 0;
-  }
+	@include large {
+		padding: 0;
+	}
 }

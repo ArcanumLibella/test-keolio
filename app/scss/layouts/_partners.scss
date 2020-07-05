@@ -1,12 +1,42 @@
 .section--partners {
-  margin: 155px 0 235px;
+	margin: 155px 0 235px;
 
-  .h2 {
-    text-align: center;
-    margin-bottom: 68px;
-  }
+	.h2 {
+		text-align: center;
+		margin-bottom: 68px;
+	}
 
-  .icon {
-    fill: $black;
-  }
+	.partners {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 1138px;
+		overflow: scroll;
+		margin-bottom: 135px;
+
+		&__icon {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 16px;
+			width: 212px;
+			height: 212px;
+			background-color: $purple;
+		}
+
+		.icon {
+			fill: $white;
+
+			&-amazon {
+				max-height: 88px;
+			}
+		}
+	}
+
+	.testimonies {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 235px;
+	}
 }
