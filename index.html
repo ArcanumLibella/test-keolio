@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/xwz4mjw.css">
 
     <!-- CSS File -->
-    <link rel="stylesheet" href="dist/style.css?cb=1593943182170" />
+    <link rel="stylesheet" href="dist/style.css?cb=1593945300143" />
 
     <!-- SVG SPRITE -->
     <svg
@@ -30,6 +30,15 @@
       xmlns:xlink="http://www.w3.org/1999/xlink"
     >
       <defs>
+        <symbol id="icon-facebook" viewBox="0 0 32 32">
+          <path d="M18.667 18h3.333l1.333-5.333h-4.667v-2.667c0-1.373 0-2.667 2.667-2.667h2v-4.48c-0.435-0.057-2.076-0.187-3.809-0.187-3.62 0-6.191 2.209-6.191 6.267v3.733h-4v5.333h4v11.333h5.333v-11.333z"></path>
+        </symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 32 32">
+          <path d="M9.253 6.667c-0 0.707-0.282 1.385-0.782 1.885s-1.179 0.78-1.886 0.78c-0.707-0-1.385-0.282-1.885-0.782s-0.78-1.179-0.78-1.886c0-0.707 0.282-1.385 0.782-1.885s1.179-0.78 1.886-0.78c0.707 0 1.385 0.282 1.885 0.782s0.78 1.179 0.78 1.886v0zM9.333 11.307h-5.333v16.693h5.333v-16.693zM17.76 11.307h-5.307v16.693h5.253v-8.76c0-4.88 6.36-5.333 6.36 0v8.76h5.267v-10.573c0-8.227-9.413-7.92-11.627-3.88l0.053-2.24z"></path>
+        </symbol>
+        <symbol id="icon-twitter" viewBox="0 0 32 32">
+          <path d="M29.549 7.541c-1.018 0.45-2.097 0.746-3.203 0.877 1.165-0.697 2.037-1.793 2.453-3.085-1.093 0.651-2.292 1.107-3.541 1.353-0.839-0.898-1.952-1.493-3.164-1.694s-2.457 0.005-3.541 0.585c-1.084 0.58-1.945 1.502-2.451 2.622s-0.627 2.376-0.345 3.572c-2.217-0.111-4.386-0.687-6.366-1.691s-3.727-2.413-5.127-4.136c-0.496 0.851-0.756 1.819-0.755 2.804 0 1.933 0.984 3.641 2.48 4.641-0.885-0.028-1.751-0.267-2.525-0.697v0.069c0 1.288 0.446 2.535 1.261 3.532s1.95 1.681 3.212 1.936c-0.822 0.223-1.684 0.256-2.52 0.096 0.356 1.108 1.049 2.078 1.983 2.772s2.062 1.080 3.226 1.101c-1.157 0.909-2.481 1.58-3.897 1.976s-2.897 0.509-4.357 0.333c2.549 1.639 5.516 2.509 8.547 2.507 10.257 0 15.867-8.497 15.867-15.867 0-0.24-0.007-0.483-0.017-0.72 1.092-0.789 2.034-1.767 2.783-2.887l-0.001-0.001z"></path>
+        </symbol>
         <symbol id="icon-advent" viewBox="0 0 32 32">
           <path
             d="M27.315 18.541v-0.913c-0.739-0.606-3.738-3.688-4.248-4.129v0.953c0.427 0.399 3.778 3.605 4.248 4.090zM22.312 13.539v0.238h-1.826v1.985h1.588v0.239h-1.588v2.303h1.826v0.238h-2.382v-5.002h2.382zM14.372 13.539c0.179 0.361 1.988 4.755 2.104 5.003h0.357c0.158-0.372 1.967-4.59 2.144-5.003h-0.397c-0.235 0.682-1.651 4.114-1.747 4.328-0.369-0.813-1.693-3.977-1.826-4.328h-0.635zM8.377 18.541c-0.226-0.506-1.839-4.776-1.945-5.003h-0.119c-0.177 0.351-2.276 4.569-2.541 5.003h0.436c0.283-0.702 1.865-3.99 1.985-4.208 0.345 0.818 1.503 3.837 1.628 4.208h0.556zM2.581 18.541l2.581-5.002h-0.119l-2.581 5.002h0.119zM1.35 18.541l2.581-5.002h-0.119l-2.581 5.002h0.119zM0.119 18.541l2.581-5.002h-0.119l-2.581 5.002h0.119zM9.369 13.539h2.064c2.052-0.012 2.486 1.198 2.501 2.462-0.015 1.342-0.987 2.521-2.739 2.541h-1.826v-5.003z"
@@ -349,7 +358,7 @@
           ></path>
         </symbol>
 
-        <symbol id="icon-facebook" viewbox="0 0 17 32">
+        <symbol id="icon-facebook2" viewbox="0 0 17 32">
           <path
             fill="#3c5a9a"
             style="fill: var(--color2, #3c5a9a)"
@@ -970,9 +979,52 @@
           </div>
         </div>
       </section>
+
+      <!-- FOOTER-->
+      <footer class="footer">
+        <div class="content-wrapper">
+          <div class="footer__wrapper">
+            <div class="footer__logo">
+              <svg class="icon icon-logo">
+                <use xlink:href="#icon-logo"></use>
+              </svg>
+            </div>
+            <ul class="footer__links">
+              <li class="footer__link footer__link--title">Nos solutions</li>
+              <li class="footer__link">Google Ads</li>
+              <li class="footer__link">Facebook Ads</li>
+              <li class="footer__link">Youtube</li>
+              <li class="footer__link">Microsoft Advertising</li>
+              <li class="footer__link">Amazon Advertising</li>
+              <li class="footer__link">Google Analytics</li>
+            </ul>
+            <ul class="footer__links">
+              <li class="footer__link footer__link--title">Liens utiles</li>
+              <li class="footer__link">Services</li>
+              <li class="footer__link">Tarifs</li>
+              <li class="footer__link">Agence</li>
+              <li class="footer__link">Références</li>
+              <li class="footer__link">Blog</li>
+              <li class="footer__link">Contact</li>
+            </ul>
+          </div>
+          <div class="footer__socials">
+            <svg class="icon icon-facebook">
+              <use xlink:href="#icon-facebook"></use>
+            </svg>
+            <svg class="icon icon-twitter">
+              <use xlink:href="#icon-twitter"></use>
+            </svg>
+            <svg class="icon icon-linkedin">
+              <use xlink:href="#icon-linkedin"></use>
+            </svg>
+          </div>
+
+        </div>
+      </footer>
     </main>
 
     <!-- JavaScript File -->
-    <script src="dist/all.js?cb=1593943182170"></script>
+    <script src="dist/all.js?cb=1593945300143"></script>
   </body>
 </html>

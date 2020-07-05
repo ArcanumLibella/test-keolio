@@ -1,0 +1,58 @@
+.footer {
+	&__wrapper {
+		display: flex;
+		margin: 132px 0 106px;
+	}
+
+	&__logo {
+		margin-right: 144px;
+
+		.icon {
+			height: 48px;
+			max-width: 240px;
+		}
+	}
+
+	&__links {
+		// &:first-child {
+		margin-right: 200px;
+		// }
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&__link {
+		font-size: rem(18px);
+		font-weight: 400;
+		margin: 16px 0;
+		cursor: pointer;
+
+		&:first-child {
+			font-size: rem(22px);
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+
+		&:hover {
+			color: $purple;
+		}
+	}
+
+	&__socials {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 50px;
+
+		.icon {
+			width: 36px;
+			height: 36px;
+			margin: 0 16px;
+			cursor: pointer;
+
+			&:hover {
+				fill: $purple;
+			}
+		}
+	}
+}
