@@ -2,40 +2,40 @@
 * TYPOGRAPHY
 */
 
-$font: 'Filson Pro', sans-serif;
+$font: filson-pro, sans-serif;
 
 .h1 {
-  font-size: rem(40px);
-  font-weight: 900;
-  line-height: 48px;
-  color: $white;
+	font-size: rem(40px);
+	font-weight: 900;
+	line-height: 48px;
+	color: $white;
 }
 
 .h2 {
-  font-size: rem(35px);
-  font-weight: 900;
-  color: $purple;
+	font-size: rem(35px);
+	font-weight: 900;
+	color: $purple;
 }
 
 .h3 {
-  font-size: rem(22px);
-  font-weight: 400;
-  line-height: 27px;
+	font-size: rem(22px);
+	font-weight: 400;
+	line-height: 27px;
 }
 
 .h4 {
-  font-size: rem(18px);
-  font-weight: 900;
+	font-size: rem(18px);
+	font-weight: 900;
 }
 
 .bodytext {
-  font-size: rem(16px);
-  font-weight: 400;
-  line-height: 24px;
+	font-size: rem(16px);
+	font-weight: 400;
+	line-height: 24px;
 }
 
 .subtext {
-  font-size: rem(14px);
-  font-weight: 400;
-  line-height: 24px;
+	font-size: rem(14px);
+	font-weight: 400;
+	line-height: 24px;
 }

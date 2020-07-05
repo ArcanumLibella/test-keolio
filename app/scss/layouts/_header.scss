@@ -1,43 +1,53 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 80px 0 88px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	padding: 75px 0 88px;
+	z-index: 10;
 
-  &__logo {
-    .icon {
-      max-width: 175px;
-      height: 32px;
-    }
-  }
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 1138px;
+		margin: 0 auto;
+	}
 
-  &__nav {
-  }
+	&__logo {
+		.icon {
+			max-width: 175px;
+			height: 32px;
+		}
+	}
 
-  &__items {
-    display: flex;
-    align-items: center;
-  }
+	&__nav {
+	}
 
-  &__item {
-    margin: 0 16px;
-    color: $white;
-    font-size: rem(16px);
-    font-weight: 300;
-    // transition: all 0.3s ease-in-out;
-    cursor: pointer;
+	&__items {
+		display: flex;
+		align-items: center;
+	}
 
-    // &:hover {
-    //   color: $purple;
-    // }
-  }
+	&__item {
+		margin: 0 16px;
+		color: $white;
+		font-size: rem(16px);
+		font-weight: 300;
+		// transition: all 0.3s ease-in-out;
+		cursor: pointer;
 
-  .cta {
-    margin-left: 48px;
+		// &:hover {
+		//   color: $purple;
+		// }
+	}
 
-    &__link {
-      padding: 4px 16px 6px;
-      font-weight: 300;
-    }
-  }
+	.cta {
+		margin-left: 48px;
+
+		&__link {
+			padding: 4px 16px 6px;
+			font-weight: 300;
+		}
+	}
 }

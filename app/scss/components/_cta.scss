@@ -1,38 +1,42 @@
 .cta {
-  display: inline-block;
-  color: $purple;
-  text-align: center;
-  background-color: $white;
-  border-radius: 26px;
+	display: inline-block;
+	color: $purple;
+	text-align: center;
+	background-color: $white;
+	border-radius: 26px;
+	cursor: pointer;
 
-  transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 
-  &--secondary {
-    border: 1px solid $purple;
-    text-transform: uppercase;
-  }
+	&--secondary {
+		border: 1px solid $purple;
+		text-transform: uppercase;
+	}
 
-  &--tertiary {
-    border: 1px solid $purple;
-    text-transform: uppercase;
-    border-radius: 7px;
+	&--tertiary {
+		border: 1px solid $purple;
+		text-transform: uppercase;
+		border-radius: 7px;
 
-    .cta__link {
-      padding: 20px 16px;
-    }
-  }
+		.cta__link {
+			padding: 20px 16px;
+		}
+	}
 
-  &:hover {
-    background: $lightPurple;
-  }
+	&--secondary,
+	&--tertiary {
+		&:hover {
+			color: $white;
+			background-color: $purple;
+		}
+	}
 
-  &__link {
-    display: block;
-    padding: 16px 28px;
-    width: 100%;
+	&__link {
+		display: block;
+		padding: 16px 28px;
+		width: 100%;
 
-    font-size: rem(16px);
-    font-weight: 900;
-    cursor: pointer;
-  }
+		font-size: rem(16px);
+		font-weight: 900;
+	}
 }
