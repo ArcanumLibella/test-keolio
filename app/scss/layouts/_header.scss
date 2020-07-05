@@ -1,10 +1,28 @@
 .header {
 	position: fixed;
-	top: 0;
+	top: 75px;
 	left: 0;
+	padding: 16px 0;
 	width: 100vw;
-	padding: 75px 0 88px;
+	transition: all 0.3s ease-in-out;
 	z-index: 10;
+
+	&.is-scrolling {
+		top: 0;
+		background-color: $white;
+
+		.header__item {
+			color: $purple;
+		}
+
+		.icon {
+			fill: $purple;
+		}
+
+		.cta {
+			border: 1px solid $purple;
+		}
+	}
 
 	&__wrapper {
 		display: flex;
@@ -16,12 +34,10 @@
 
 	&__logo {
 		.icon {
+			fill: $white;
 			max-width: 175px;
 			height: 32px;
 		}
-	}
-
-	&__nav {
 	}
 
 	&__items {
@@ -34,16 +50,17 @@
 		color: $white;
 		font-size: rem(16px);
 		font-weight: 300;
-		// transition: all 0.3s ease-in-out;
 		cursor: pointer;
-
-		// &:hover {
-		//   color: $purple;
-		// }
 	}
 
 	.cta {
 		margin-left: 48px;
+		transition: all 0.3s ease-in-out;
+
+		&:hover {
+			color: $white;
+			background-color: $purple;
+		}
 
 		&__link {
 			padding: 4px 16px 6px;
